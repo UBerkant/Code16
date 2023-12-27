@@ -90,11 +90,11 @@ public class Odev : MonoBehaviour
         {
             mod5ListeString += "Beþe tam bölünen sayi bulunmamaktadýr.";
         }
-        print("Tüm liste : " + listeString);
-        print("Ýkiye bölünenler : " + mod2ListeString);
-        print("Üçe bölünenler : " + mod3ListeString);
-        print("Dörde bölünenler : " + mod4ListeString);
-        print("Beþe bölünenler : " + mod5ListeString);
+        Debug.Log("Tüm liste : " + listeString);
+        Debug.Log("Ýkiye bölünenler : " + mod2ListeString);
+        Debug.Log("Üçe bölünenler : " + mod3ListeString);
+        Debug.Log("Dörde bölünenler : " + mod4ListeString);
+        Debug.Log("Beþe bölünenler : " + mod5ListeString);
     }
     // Start is called before the first frame update
     void Start()
