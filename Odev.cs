@@ -10,13 +10,13 @@ public class Odev : MonoBehaviour
     void bolenleriBul(int sayi1, int sayi2)
     {
         string listeString = "";
-        bool mod2Kontrol=false; // string icerisine atacak sayi olmamasý durumu icin 
+        bool mod2Kontrol=false; // string icerisine atacak sayi olmamasi durumu icin 
         string mod2ListeString = "";
-        bool mod3Kontrol = false; // string icerisine atacak sayi olmamasý durumu icin 
+        bool mod3Kontrol = false; // string icerisine atacak sayi olmamasi durumu icin 
         string mod3ListeString = "";
-        bool mod4Kontrol = false; // string icerisine atacak sayi olmamasý durumu icin
+        bool mod4Kontrol = false; // string icerisine atacak sayi olmamasi durumu icin
         string mod4ListeString = "";
-        bool mod5Kontrol = false; // string icerisine atacak sayi olmamasý durumu icin
+        bool mod5Kontrol = false; // string icerisine atacak sayi olmamasi durumu icin
         string mod5ListeString = "";
         if(sayi1 <= sayi2) //Ilk sayinin ikinci sayidan kucuk ve esit olma durumu
         {
