@@ -1,0 +1,627 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1704205720247788, "dur": 391854, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704205720248169, "dur": 2378, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704205720250549, "dur": 388077, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704205720638629, "dur": 1013, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704205720640410, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1704205720279386, "dur":1532, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720280928, "dur":228, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1704205720281187, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1704205720281205, "dur":682, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1704205720281910, "dur":616, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720282526, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720627758, "dur":256, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628014, "dur":87, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628101, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628105, "dur":37, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628142, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628146, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628151, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628153, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628157, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628159, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628165, "dur":88, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628253, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628258, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628260, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628263, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628265, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628268, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628270, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628273, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628274, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628278, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628280, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628285, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628287, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628293, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628294, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628299, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628302, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628309, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628312, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628316, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628317, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628321, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628339, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720628346, "dur":1145, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1704205720282111, "dur":445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720282556, "dur":8954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720291529, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1704205720291784, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720292033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720310703, "dur":6393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1704205720317187, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720317312, "dur":12488, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720329809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720329818, "dur":5067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720335060, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720335173, "dur":1202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720336463, "dur":111, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720336586, "dur":5420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720342158, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720342323, "dur":1232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720343588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720343596, "dur":5725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720349588, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720349695, "dur":914, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720350617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720350639, "dur":5924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720356659, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720356760, "dur":733, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720357500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720357510, "dur":4740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720362410, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720362502, "dur":803, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720363313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720363324, "dur":5691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720369105, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720369182, "dur":1139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720370329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720370357, "dur":13729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704205720384271, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1704205720384403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704205720384417, "dur":9455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1704205720393963, "dur":233797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720282101, "dur":449, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720282550, "dur":8962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720291529, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1704205720291688, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720291782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720300080, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1704205720301931, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720302024, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720302248, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720310162, "dur":21328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720331587, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720331689, "dur":1454, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720333152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720333160, "dur":6524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720339794, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720339875, "dur":968, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720340853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720340863, "dur":5844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720346955, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720347141, "dur":685, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720347898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720347905, "dur":6292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720354294, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720354641, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720355132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720355139, "dur":4179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720359539, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720360010, "dur":612, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720360630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720360639, "dur":4711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720365462, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720365726, "dur":1405, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720367137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720367146, "dur":4630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720371866, "dur":5807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720377682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704205720377723, "dur":9378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704205720387199, "dur":240550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720282042, "dur":494, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720282536, "dur":8978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720291531, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1704205720291953, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720292231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720298669, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1704205720300904, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1704205720301048, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720301117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720301127, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1704205720302219, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704205720302292, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720302350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720311095, "dur":22139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704205720333350, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704205720333514, "dur":630, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720334151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720334160, "dur":7387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704205720341633, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704205720341784, "dur":1082, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720342871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720342878, "dur":6347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704205720349358, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704205720349651, "dur":912, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720350570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720350579, "dur":6802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704205720357724, "dur":145021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704205720502746, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720502868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704205720502875, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704205720504742, "dur":123030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720282086, "dur":457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720282543, "dur":8973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720291544, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1704205720291958, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720292377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720298769, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1704205720301414, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720301654, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720301740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720302083, "dur":19857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720322079, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720322184, "dur":7752, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720329944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720329951, "dur":7638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720337701, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720337857, "dur":696, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720338560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720338578, "dur":5384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720344066, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720344157, "dur":1001, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720345164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720345171, "dur":6533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720351936, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720352282, "dur":948, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720353237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720353244, "dur":6085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720359639, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720360306, "dur":539, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720360851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720360858, "dur":4888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720365832, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720365964, "dur":1211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720367181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720367275, "dur":6306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704205720373689, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1704205720373811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720373964, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1704205720376337, "dur":1358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1704205720378657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704205720378667, "dur":11499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1704205720390301, "dur":237450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720282170, "dur":394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720282565, "dur":9017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720291587, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1704205720291805, "dur":378, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720292188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720298848, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1704205720301689, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi.exe" }}
+,{ "pid":12345, "tid":5, "ts":1704205720301838, "dur":398, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720302241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720302247, "dur":6075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi.exe" }}
+,{ "pid":12345, "tid":5, "ts":1704205720308467, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704205720308619, "dur":1947, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720310584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720310593, "dur":21902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704205720332584, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704205720332661, "dur":805, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720333502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720333510, "dur":4756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704205720338379, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704205720338520, "dur":897, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720339423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720339431, "dur":5429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704205720344995, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704205720345085, "dur":1428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720346520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720346528, "dur":5189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704205720351930, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704205720352253, "dur":762, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720353023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720353035, "dur":5761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704205720358919, "dur":105040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704205720463960, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720464213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704205720464366, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704205720465896, "dur":161867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720282206, "dur":366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720282572, "dur":9003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720291580, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1704205720291898, "dur":348, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720292278, "dur":84, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720299178, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1704205720302079, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720302164, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720302242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720310416, "dur":21030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720331548, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720331637, "dur":1430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720333076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720333088, "dur":4707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720337920, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720338026, "dur":1571, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720339603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720339612, "dur":6964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720346701, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720346967, "dur":727, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720347701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720347711, "dur":6911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720354721, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720354943, "dur":631, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720355580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720355588, "dur":5206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720361069, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720361220, "dur":400, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720361625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720361631, "dur":4100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720365818, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720365957, "dur":1212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720367212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720367221, "dur":6407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704205720373773, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1704205720373947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704205720373954, "dur":16126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1704205720390194, "dur":237581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720282231, "dur":347, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720282578, "dur":9020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720291598, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1704205720291757, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720291826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720299654, "dur":2690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1704205720302486, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720302770, "dur":7237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720310049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720310568, "dur":21669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720332382, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720332507, "dur":848, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720333362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720333371, "dur":4556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720338021, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720338107, "dur":1037, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720339150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720339158, "dur":5390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720344860, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720345017, "dur":1755, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720346779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720346787, "dur":5740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720352613, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720352700, "dur":1828, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720354535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720354544, "dur":4489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720359275, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720359684, "dur":1025, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720360715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720360722, "dur":8909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720369734, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720369857, "dur":807, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720370984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720370991, "dur":5084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704205720376205, "dur":1475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1704205720377686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704205720378515, "dur":12061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1704205720390670, "dur":237098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720282286, "dur":295, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720282581, "dur":9019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720291600, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1704205720291783, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720292062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720310644, "dur":6463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1704205720317215, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720317341, "dur":12527, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720329875, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720329886, "dur":6218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720336245, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720336353, "dur":991, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720337357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720337367, "dur":6159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720343883, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720344004, "dur":711, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720344727, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720344742, "dur":6191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720351031, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720351111, "dur":848, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720351965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720351988, "dur":6617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720358744, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720358842, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720359279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720359289, "dur":5171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720364561, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720364653, "dur":680, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720365340, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720365348, "dur":5441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720370916, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720371027, "dur":677, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720371710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720371719, "dur":6939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704205720378781, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1704205720378869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704205720378875, "dur":11379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1704205720390334, "dur":237445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720282317, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720282587, "dur":8997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720291585, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1704205720291828, "dur":370, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720292205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720299229, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1704205720301734, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1704205720301882, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720301996, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720310029, "dur":16701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1704205720326830, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720326928, "dur":3100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720330036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720330044, "dur":6125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720336266, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720336393, "dur":972, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720337372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720337380, "dur":4827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720342364, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720342504, "dur":1207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720343718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720343724, "dur":5887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720349713, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720349815, "dur":891, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720350711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720350716, "dur":6584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720357421, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720357708, "dur":675, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720358394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720358406, "dur":4465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720362985, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720363078, "dur":1220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720364306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720364314, "dur":4717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720369126, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720369219, "dur":1283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720370510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720370519, "dur":6791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704205720377415, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1704205720377862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704205720377870, "dur":12085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1704205720390421, "dur":237332, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720282379, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720282594, "dur":9130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720291725, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1704205720291888, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720292227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720299037, "dur":2407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1704205720301529, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1704205720301632, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720301720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720301725, "dur":9211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1704205720311066, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704205720311180, "dur":2551, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720313744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720313757, "dur":20650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704205720334567, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704205720334685, "dur":2248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720336942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720336970, "dur":7489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704205720344559, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704205720344738, "dur":1211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720345988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720345999, "dur":5973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704205720352313, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704205720352446, "dur":1477, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720353929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720353937, "dur":5368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704205720359589, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704205720360022, "dur":619, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720360647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720360654, "dur":6351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704205720367248, "dur":696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704205720367944, "dur":1049, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720369000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720369009, "dur":4903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704205720374009, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1704205720374106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720374114, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1704205720375849, "dur":2311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1704205720378162, "dur":1493, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720379663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704205720379670, "dur":10511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1704205720390308, "dur":237447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720282411, "dur":189, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720282600, "dur":8939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720291540, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1704205720291772, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720291978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720310214, "dur":6366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1704205720316699, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704205720316824, "dur":11671, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720328505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720328519, "dur":6548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704205720335245, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704205720335348, "dur":1221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720336577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720336586, "dur":5315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704205720341999, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704205720342099, "dur":1042, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720343166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720343174, "dur":6189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704205720349672, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704205720349823, "dur":897, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720350726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720350762, "dur":6548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704205720357668, "dur":69951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704205720427620, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720427806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1704205720427817, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1704205720429436, "dur":198338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720282461, "dur":144, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720282605, "dur":9033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720291656, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1704205720291829, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720292220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720298542, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1704205720301410, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704205720301940, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720302141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720302288, "dur":6349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704205720308751, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704205720308881, "dur":1720, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720310606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720310613, "dur":22041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704205720332783, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704205720333391, "dur":757, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720334162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720334170, "dur":7048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704205720341346, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704205720341453, "dur":954, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720342414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720342425, "dur":6915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704205720349666, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704205720349795, "dur":874, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720350675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720350681, "dur":6625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704205720357717, "dur":144838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704205720502556, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720502703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1704205720502720, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1704205720504393, "dur":123377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704205720282497, "dur":113, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704205720282610, "dur":8910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704205720291581, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1704205720291921, "dur":359, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704205720292286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704205720297999, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1704205720300975, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1704205720301150, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704205720301214, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704205720301225, "dur":5235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1704205720306587, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704205720306773, "dur":3612, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704205720310392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704205720310744, "dur":21960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704205720332806, "dur":178116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704205720510925, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704205720511212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1704205720511224, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1704205720512798, "dur":114979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720282524, "dur":4, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720282528, "dur":8979, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720291529, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":14, "ts":1704205720291535, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720291672, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/app.info" }}
+,{ "pid":12345, "tid":14, "ts":1704205720291675, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720291731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720293946, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/app.info" }}
+,{ "pid":12345, "tid":14, "ts":1704205720296278, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1704205720296341, "dur":422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720296769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720299075, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1704205720301753, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720301844, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720301998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720307241, "dur":23641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720331019, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720331222, "dur":1195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720332426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720332439, "dur":5562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720338341, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720338508, "dur":879, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720339393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720339400, "dur":5448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720344966, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720345052, "dur":1431, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720346492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720346519, "dur":5292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720352095, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720352317, "dur":1254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720353606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720353613, "dur":5142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720359100, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720359461, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720359626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720359636, "dur":4702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720364557, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720364801, "dur":626, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720365457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720365464, "dur":4390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720369951, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720370036, "dur":526, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720370569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720370577, "dur":13981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1704205720384694, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1704205720385181, "dur":2163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720387379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1704205720387388, "dur":5359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1704205720392832, "dur":234934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720282551, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720282551, "dur":8967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720291529, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1704205720291780, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720292081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720310646, "dur":6299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1704205720317053, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704205720317145, "dur":11423, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720328574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720328582, "dur":6770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704205720335488, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704205720335584, "dur":1043, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720336634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720336642, "dur":5529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704205720342363, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704205720342487, "dur":1273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720343767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720343774, "dur":6006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704205720349970, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704205720350060, "dur":1247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720351313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720351320, "dur":7662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704205720359076, "dur":267523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704205720626600, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720626737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1704205720626746, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1704205720627694, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":15, "ts":1704205720627696, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720282585, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720282585, "dur":9005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720291590, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1704205720291879, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720292287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720298498, "dur":2883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1704205720301492, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720301583, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720301644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720301652, "dur":31012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720332764, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720332907, "dur":639, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720333553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720333561, "dur":4919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720338572, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720338657, "dur":1082, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720339746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720339758, "dur":6917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720346952, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720347099, "dur":703, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720347808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720347823, "dur":5810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720353726, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720353799, "dur":1211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720355016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720355024, "dur":4611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720360402, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720360915, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720361274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720361282, "dur":5951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720367747, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720368076, "dur":1216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720369328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720369336, "dur":6401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1704205720375861, "dur":4148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1704205720380010, "dur":6065, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720386084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1704205720386095, "dur":4880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github/Code16_Hafta2/Hafta3/Build/GezegenSistemi_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1704205720391055, "dur":236707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704205720630485, "dur":1626, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1704205720640558, "dur": 4803, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1704205720640395, "dur": 5015, "ph": "X", "name": "Write chrome-trace events", "args": {} },
